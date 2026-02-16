@@ -16,7 +16,7 @@ export default function WAStatus({ status }) {
     }
   };
 
-  const current = map[status];
+  const current = map[status] || map.disconnected;
 
   return (
     <div className="flex items-center justify-center gap-3">
