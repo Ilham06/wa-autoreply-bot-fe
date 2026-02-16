@@ -78,7 +78,7 @@ export default function SettingsPage() {
   }
 
   return (
-    <div className="space-y-6 max-w-4xl">
+    <div className="space-y-6">
       <h2 className="text-2xl font-bold">🛠️ Settings</h2>
 
       <Card className="rounded-2xl">

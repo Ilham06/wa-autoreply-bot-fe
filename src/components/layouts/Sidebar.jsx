@@ -7,7 +7,7 @@ import { Badge } from '@/components/ui/badge';
 
 const menus = [
   { name: 'Dashboard', href: '/', icon: '📊' },
-  { name: 'Inbox', href: '/inbox', icon: '💬' },
+  // { name: 'Inbox', href: '/inbox', icon: '💬' },
   { name: 'WhatsApp', href: '/whatsapp', icon: '📱' },
   { name: 'AI Config', href: '/ai', icon: '🤖' },
   { name: 'Bot Rules', href: '/rules', icon: '⚙️' },

@@ -46,10 +46,6 @@ export default function Topbar() {
         <h1 className="font-semibold text-lg">
           Dashboard
         </h1>
-
-        <Badge className="bg-emerald-500 text-white">
-          Connected
-        </Badge>
       </div>
 
       {/* Right */}
@@ -60,10 +56,6 @@ export default function Topbar() {
 
         <Button variant="outline" className="rounded-xl" onClick={handleLogout}>
           Logout
-        </Button>
-
-        <Button className="rounded-xl">
-          🔌 Connect WA
         </Button>
       </div>
     </header>

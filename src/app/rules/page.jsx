@@ -98,7 +98,7 @@ export default function BotRulesPage() {
   }
 
   return (
-    <div className="space-y-6 max-w-5xl">
+    <div className="space-y-6">
       <h2 className="text-2xl font-bold">⚙️ Bot Rules</h2>
 
       <Card className="rounded-2xl">

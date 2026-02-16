@@ -77,22 +77,7 @@ export default function LoginPage() {
       </CardHeader>
 
       <CardContent className="space-y-4">
-        <div className="grid grid-cols-2 gap-2">
-          <Button
-            type="button"
-            variant={mode === 'login' ? 'default' : 'outline'}
-            onClick={() => setMode('login')}
-          >
-            Login
-          </Button>
-          <Button
-            type="button"
-            variant={mode === 'register' ? 'default' : 'outline'}
-            onClick={() => setMode('register')}
-          >
-            Register
-          </Button>
-        </div>
+        
 
         <form className="space-y-4" onSubmit={handleSubmit}>
           {mode === 'register' && (

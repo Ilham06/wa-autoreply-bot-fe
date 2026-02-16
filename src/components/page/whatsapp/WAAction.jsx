@@ -15,7 +15,7 @@ export default function WAActions({
         </Button>
       )}
 
-      {status === 'connected' && (
+      {/* {status === 'connected' && (
         <Button
           variant="outline"
           className="rounded-xl"
@@ -24,15 +24,15 @@ export default function WAActions({
         >
           🔓 {isSubmitting ? 'Memproses...' : 'Logout WhatsApp'}
         </Button>
-      )}
+      )} */}
 
       <Button
         variant="destructive"
-        className="rounded-xl"
+        className="rounded-lg"
         onClick={onReset}
         disabled={isSubmitting}
       >
-        ♻️ {isSubmitting ? 'Memproses...' : 'Reset Session'}
+        {isSubmitting ? 'Memproses...' : 'Reset Session'}
       </Button>
     </div>
   );
